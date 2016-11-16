@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>昵称</string>
+	<string>年龄</string>
+	<string>所在地区</string>
+	<string>常住地</string>
+	<string>个性签名</string>
+	<string>职业</string>
+	<string>奋斗宣言</string>
+	<string>收入</string>
+	<string>身高</string>
+	<string>体重</string>
+	<string>对爱情的看法</string>
+	<string>对性的看法</string>
+	<string>对另一半的要求</string>
+	<string>擅长的技能</string>
+	<string>满意的部位</string>
+	<string>是否接受线下约会</string>
+	<string>是否接受亲密行为</string>
+</array>
+</plist>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="345" id="x5R-gZ-UzL" customClass="BodyPart_Boy_TableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="445" height="345"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="x5R-gZ-UzL" id="vKv-Qj-V2p">
+                <frame key="frameInset" width="445" height="345"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EPc-Fh-XKC">
+                        <color key="backgroundColor" red="0.97254901959999995" green="0.54901960780000003" blue="0.47058823529999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="EPc-Fh-XKC" secondAttribute="height" multiplier="1:1" id="Rqt-tR-plQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                        <state key="normal" title="赚钱男">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="TapButton:" destination="x5R-gZ-UzL" eventType="touchUpInside" id="0pY-x4-prf"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfH-Tp-pFD">
+                        <color key="backgroundColor" red="0.58431372550000005" green="0.79607843140000001" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="65" id="wFO-AD-NSr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="高鼻梁">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="TapButton:" destination="x5R-gZ-UzL" eventType="touchUpInside" id="r75-Wt-Etr"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kbw-a3-R3u">
+                        <color key="backgroundColor" red="1" green="0.56078431370000004" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="眼睛">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="TapButton:" destination="x5R-gZ-UzL" eventType="touchUpInside" id="hCN-EH-Wd5"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvB-fd-4QY">
+                        <color key="backgroundColor" red="0.41176470590000003" green="0.86666666670000003" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="65" id="d84-ds-x23"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="富有财气大鼻子">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="TapButton:" destination="x5R-gZ-UzL" eventType="touchUpInside" id="WIQ-e6-TkA"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wo5-P1-Q33">
+                        <color key="backgroundColor" red="0.36470588240000001" green="0.78039215689999997" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="络腮胡">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="TapButton:" destination="x5R-gZ-UzL" eventType="touchUpInside" id="mm9-nU-cwc"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JRm-eu-SWb">
+                        <color key="backgroundColor" red="0.3921568627" green="0.85882352939999995" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="酒窝">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="TapButton:" destination="x5R-gZ-UzL" eventType="touchUpInside" id="2jv-Rg-ry6"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="满意部位" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RR7-Ex-9tA">
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="5b7-0H-Ce3"/>
+                            <constraint firstAttribute="width" constant="90" id="q0G-7g-vLi"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hi9-8L-bxt">
+                        <color key="backgroundColor" red="0.55294117649999996" green="0.72156862749999995" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="黝黑的皮肤">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="TapButton:" destination="x5R-gZ-UzL" eventType="touchUpInside" id="et2-cn-5hv"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OyS-ja-SkD">
+                        <color key="backgroundColor" red="0.98039215690000003" green="0.58039215690000001" blue="0.76470588240000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="胸毛">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="TapButton:" destination="x5R-gZ-UzL" eventType="touchUpInside" id="Xw2-EM-EBX"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GS3-xo-qbK">
+                        <color key="backgroundColor" red="0.97254901959999995" green="0.74509803919999995" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                        <state key="normal" title="八块腹肌">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="TapButton:" destination="x5R-gZ-UzL" eventType="touchUpInside" id="ZRG-po-L0G"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="fvB-fd-4QY" firstAttribute="top" secondItem="hi9-8L-bxt" secondAttribute="bottom" constant="5" id="0Uc-CR-w3M"/>
+                    <constraint firstItem="fvB-fd-4QY" firstAttribute="leading" secondItem="GS3-xo-qbK" secondAttribute="trailing" constant="5" id="1OT-1Y-rOg"/>
+                    <constraint firstItem="hi9-8L-bxt" firstAttribute="height" secondItem="Kbw-a3-R3u" secondAttribute="height" id="4dl-eE-phd"/>
+                    <constraint firstItem="hi9-8L-bxt" firstAttribute="top" secondItem="dfH-Tp-pFD" secondAttribute="bottom" constant="5" id="4g2-WP-VhO"/>
+                    <constraint firstItem="hi9-8L-bxt" firstAttribute="bottom" secondItem="EPc-Fh-XKC" secondAttribute="bottom" id="79z-Fw-AhW"/>
+                    <constraint firstItem="JRm-eu-SWb" firstAttribute="leading" secondItem="wo5-P1-Q33" secondAttribute="trailing" constant="5" id="7jx-AF-4Tf"/>
+                    <constraint firstItem="wo5-P1-Q33" firstAttribute="leading" secondItem="vKv-Qj-V2p" secondAttribute="leading" constant="15" id="Ebz-ad-My3"/>
+                    <constraint firstItem="JRm-eu-SWb" firstAttribute="height" secondItem="dfH-Tp-pFD" secondAttribute="height" id="FCR-no-vGi"/>
+                    <constraint firstItem="OyS-ja-SkD" firstAttribute="leading" secondItem="JRm-eu-SWb" secondAttribute="trailing" constant="5" id="GUu-zn-E4P"/>
+                    <constraint firstItem="OyS-ja-SkD" firstAttribute="height" secondItem="dfH-Tp-pFD" secondAttribute="height" id="GrL-Y9-nZ7"/>
+                    <constraint firstItem="EPc-Fh-XKC" firstAttribute="width" secondItem="GS3-xo-qbK" secondAttribute="width" id="HuN-OF-GO0"/>
+                    <constraint firstAttribute="trailing" secondItem="dfH-Tp-pFD" secondAttribute="trailing" constant="15" id="Iua-CZ-2wr"/>
+                    <constraint firstItem="wo5-P1-Q33" firstAttribute="height" secondItem="dfH-Tp-pFD" secondAttribute="height" id="J7F-7L-L4O"/>
+                    <constraint firstItem="JRm-eu-SWb" firstAttribute="width" secondItem="dfH-Tp-pFD" secondAttribute="width" id="KBX-kf-mKZ"/>
+                    <constraint firstItem="EPc-Fh-XKC" firstAttribute="height" secondItem="GS3-xo-qbK" secondAttribute="height" id="NAd-VN-1bf"/>
+                    <constraint firstItem="wo5-P1-Q33" firstAttribute="top" secondItem="GS3-xo-qbK" secondAttribute="bottom" constant="5" id="Q6I-4J-Sue"/>
+                    <constraint firstAttribute="trailing" secondItem="fvB-fd-4QY" secondAttribute="trailing" constant="15" id="S8h-eg-3f4"/>
+                    <constraint firstItem="dfH-Tp-pFD" firstAttribute="top" secondItem="Kbw-a3-R3u" secondAttribute="top" id="SZZ-qO-Aci"/>
+                    <constraint firstItem="wo5-P1-Q33" firstAttribute="width" secondItem="dfH-Tp-pFD" secondAttribute="width" id="Wgb-Zh-m9c"/>
+                    <constraint firstItem="EPc-Fh-XKC" firstAttribute="leading" secondItem="Kbw-a3-R3u" secondAttribute="trailing" constant="5" id="XcV-OP-FpU"/>
+                    <constraint firstItem="RR7-Ex-9tA" firstAttribute="leading" secondItem="vKv-Qj-V2p" secondAttribute="leading" constant="10" id="aoM-02-kag"/>
+                    <constraint firstItem="EPc-Fh-XKC" firstAttribute="top" secondItem="Kbw-a3-R3u" secondAttribute="top" id="cC2-RP-8Tw"/>
+                    <constraint firstAttribute="trailing" secondItem="hi9-8L-bxt" secondAttribute="trailing" constant="15" id="d0x-N7-Iuc"/>
+                    <constraint firstAttribute="bottom" secondItem="wo5-P1-Q33" secondAttribute="bottom" constant="30" id="dBy-ML-Wyr"/>
+                    <constraint firstItem="JRm-eu-SWb" firstAttribute="top" secondItem="fvB-fd-4QY" secondAttribute="bottom" constant="5" id="dcL-98-27d"/>
+                    <constraint firstItem="dfH-Tp-pFD" firstAttribute="leading" secondItem="EPc-Fh-XKC" secondAttribute="trailing" constant="5" id="fe1-0p-0ga"/>
+                    <constraint firstItem="dfH-Tp-pFD" firstAttribute="width" secondItem="Kbw-a3-R3u" secondAttribute="width" id="fmQ-7c-hBo"/>
+                    <constraint firstItem="OyS-ja-SkD" firstAttribute="top" secondItem="fvB-fd-4QY" secondAttribute="bottom" constant="5" id="gNq-vU-Czr"/>
+                    <constraint firstItem="GS3-xo-qbK" firstAttribute="top" secondItem="Kbw-a3-R3u" secondAttribute="bottom" constant="5" id="ihX-B5-RPs"/>
+                    <constraint firstItem="Kbw-a3-R3u" firstAttribute="top" secondItem="RR7-Ex-9tA" secondAttribute="bottom" constant="10" id="lwU-bH-ErJ"/>
+                    <constraint firstItem="Kbw-a3-R3u" firstAttribute="leading" secondItem="vKv-Qj-V2p" secondAttribute="leading" constant="15" id="nZd-Tu-rYr"/>
+                    <constraint firstItem="GS3-xo-qbK" firstAttribute="leading" secondItem="vKv-Qj-V2p" secondAttribute="leading" constant="15" id="q1C-X9-42G"/>
+                    <constraint firstItem="EPc-Fh-XKC" firstAttribute="width" secondItem="Kbw-a3-R3u" secondAttribute="width" id="qpL-1Z-5QX"/>
+                    <constraint firstItem="RR7-Ex-9tA" firstAttribute="top" secondItem="vKv-Qj-V2p" secondAttribute="top" constant="10" id="rAZ-Pa-Ll3"/>
+                    <constraint firstItem="dfH-Tp-pFD" firstAttribute="width" secondItem="Kbw-a3-R3u" secondAttribute="width" id="rZA-HM-0aJ"/>
+                    <constraint firstItem="OyS-ja-SkD" firstAttribute="width" secondItem="dfH-Tp-pFD" secondAttribute="width" id="sEd-ej-YWT"/>
+                    <constraint firstItem="dfH-Tp-pFD" firstAttribute="height" secondItem="Kbw-a3-R3u" secondAttribute="height" id="wyp-Cb-46u"/>
+                    <constraint firstItem="hi9-8L-bxt" firstAttribute="width" secondItem="Kbw-a3-R3u" secondAttribute="width" id="wza-XB-JID"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="button_1" destination="Kbw-a3-R3u" id="GyT-Bv-nDW"/>
+                <outlet property="button_2" destination="EPc-Fh-XKC" id="kqd-5B-2yv"/>
+                <outlet property="button_3" destination="dfH-Tp-pFD" id="612-y4-4O8"/>
+                <outlet property="button_4" destination="hi9-8L-bxt" id="xG5-3I-sl3"/>
+                <outlet property="button_5" destination="GS3-xo-qbK" id="gBo-Ed-ogF"/>
+                <outlet property="button_6" destination="fvB-fd-4QY" id="8Rd-Og-1EJ"/>
+                <outlet property="button_7" destination="wo5-P1-Q33" id="lRy-gN-4VU"/>
+                <outlet property="button_8" destination="JRm-eu-SWb" id="PKz-vP-Lqw"/>
+                <outlet property="button_9" destination="OyS-ja-SkD" id="QYm-pU-BmV"/>
+            </connections>
+            <point key="canvasLocation" x="-4.5" y="37.5"/>
+        </tableViewCell>
+    </objects>
+</document>

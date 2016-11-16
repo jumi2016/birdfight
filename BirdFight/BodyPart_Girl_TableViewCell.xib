@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="198" id="k5O-r7-cPk" customClass="BodyPart_Girl_TableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="311" height="198"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="k5O-r7-cPk" id="0G5-Vs-ChZ">
+                <frame key="frameInset" width="311" height="198"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwd-HW-FFh">
+                        <color key="backgroundColor" red="0.97254901959999995" green="0.74509803919999995" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="性感双唇">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="tapButton:" destination="k5O-r7-cPk" eventType="touchUpInside" id="bHr-NL-Rw0"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQh-lg-jCD">
+                        <color key="backgroundColor" red="0.58431372550000005" green="0.79607843140000001" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="美臀">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="tapButton:" destination="k5O-r7-cPk" eventType="touchUpInside" id="UOa-xX-tcl"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPX-IA-9r5">
+                        <color key="backgroundColor" red="0.98039215690000003" green="0.58039215690000001" blue="0.76470588240000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="大眼睛">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="tapButton:" destination="k5O-r7-cPk" eventType="touchUpInside" id="QzT-cZ-lOM"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iH7-xs-yOX">
+                        <color key="backgroundColor" red="0.41176470590000003" green="0.86666666670000003" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="美腿">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="tapButton:" destination="k5O-r7-cPk" eventType="touchUpInside" id="MOA-bX-4aB"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M1T-4r-HGX">
+                        <color key="backgroundColor" red="0.36470588240000001" green="0.78039215689999997" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="锁骨">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="tapButton:" destination="k5O-r7-cPk" eventType="touchUpInside" id="QTG-mB-POD"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Sx-Q1-bAC">
+                        <color key="backgroundColor" red="0.97254901959999995" green="0.54901960780000003" blue="0.47058823529999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="1Sx-Q1-bAC" secondAttribute="height" multiplier="1:1" id="Ug4-DR-MwC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                        <state key="normal" title="美胸">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="tapButton:" destination="k5O-r7-cPk" eventType="touchUpInside" id="NkL-66-lFo"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="满意部位" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ubU-Tb-1el">
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="8S7-uE-YF5"/>
+                            <constraint firstAttribute="height" constant="20" id="ZRM-8u-VE6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z5z-zA-d4v">
+                        <color key="backgroundColor" red="1" green="0.63137254899999995" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="芊芊玉手">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="tapButton:" destination="k5O-r7-cPk" eventType="touchUpInside" id="wkI-m5-HdX"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="crH-ik-V4s">
+                        <color key="backgroundColor" red="1" green="0.56078431370000004" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="小蛮腰">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="tapButton:" destination="k5O-r7-cPk" eventType="touchUpInside" id="lSc-vX-1X3"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="M1T-4r-HGX" firstAttribute="top" secondItem="z5z-zA-d4v" secondAttribute="bottom" constant="5" id="1te-GO-Sju"/>
+                    <constraint firstItem="1Sx-Q1-bAC" firstAttribute="width" secondItem="crH-ik-V4s" secondAttribute="width" id="2fz-vX-jja"/>
+                    <constraint firstItem="M1T-4r-HGX" firstAttribute="width" secondItem="crH-ik-V4s" secondAttribute="width" id="5pQ-T7-qU7"/>
+                    <constraint firstItem="iH7-xs-yOX" firstAttribute="top" secondItem="1Sx-Q1-bAC" secondAttribute="bottom" constant="5" id="7Ru-kH-Kad"/>
+                    <constraint firstItem="1Sx-Q1-bAC" firstAttribute="leading" secondItem="vwd-HW-FFh" secondAttribute="trailing" constant="5" id="9pz-RM-7U5"/>
+                    <constraint firstItem="wPX-IA-9r5" firstAttribute="leading" secondItem="0G5-Vs-ChZ" secondAttribute="leading" constant="15" id="9wh-ZH-ihX"/>
+                    <constraint firstItem="ubU-Tb-1el" firstAttribute="top" secondItem="0G5-Vs-ChZ" secondAttribute="top" constant="10" id="A0j-NX-dNl"/>
+                    <constraint firstItem="crH-ik-V4s" firstAttribute="top" secondItem="ubU-Tb-1el" secondAttribute="bottom" constant="10" id="F6o-nr-uNP"/>
+                    <constraint firstAttribute="bottom" secondItem="wPX-IA-9r5" secondAttribute="bottom" constant="20" id="GwD-HW-MZK"/>
+                    <constraint firstItem="rQh-lg-jCD" firstAttribute="width" secondItem="crH-ik-V4s" secondAttribute="width" id="H5y-DK-pxI"/>
+                    <constraint firstItem="vwd-HW-FFh" firstAttribute="leading" secondItem="0G5-Vs-ChZ" secondAttribute="leading" constant="15" id="HZ3-c3-oP9"/>
+                    <constraint firstItem="crH-ik-V4s" firstAttribute="leading" secondItem="0G5-Vs-ChZ" secondAttribute="leading" constant="15" id="J7a-Ld-6sP"/>
+                    <constraint firstAttribute="trailing" secondItem="rQh-lg-jCD" secondAttribute="trailing" constant="15" id="JdS-uO-g5L"/>
+                    <constraint firstItem="iH7-xs-yOX" firstAttribute="height" secondItem="crH-ik-V4s" secondAttribute="height" id="M0u-ND-sDO"/>
+                    <constraint firstItem="rQh-lg-jCD" firstAttribute="top" secondItem="crH-ik-V4s" secondAttribute="top" id="N0a-S3-akr"/>
+                    <constraint firstAttribute="trailing" secondItem="z5z-zA-d4v" secondAttribute="trailing" constant="15" id="S0M-Gn-ZKI"/>
+                    <constraint firstItem="vwd-HW-FFh" firstAttribute="width" secondItem="crH-ik-V4s" secondAttribute="width" id="S2P-gn-Gel"/>
+                    <constraint firstItem="z5z-zA-d4v" firstAttribute="width" secondItem="rQh-lg-jCD" secondAttribute="width" id="ZYB-lJ-uNw"/>
+                    <constraint firstItem="wPX-IA-9r5" firstAttribute="height" secondItem="crH-ik-V4s" secondAttribute="height" id="a5l-hR-GIk"/>
+                    <constraint firstItem="z5z-zA-d4v" firstAttribute="top" secondItem="rQh-lg-jCD" secondAttribute="bottom" constant="5" id="aRQ-E9-Jgx"/>
+                    <constraint firstItem="1Sx-Q1-bAC" firstAttribute="top" secondItem="crH-ik-V4s" secondAttribute="top" id="cx3-HR-pkM"/>
+                    <constraint firstItem="iH7-xs-yOX" firstAttribute="width" secondItem="crH-ik-V4s" secondAttribute="width" id="dIS-7p-k5d"/>
+                    <constraint firstItem="z5z-zA-d4v" firstAttribute="height" secondItem="rQh-lg-jCD" secondAttribute="height" id="dN4-YQ-qhe"/>
+                    <constraint firstItem="1Sx-Q1-bAC" firstAttribute="bottom" secondItem="vwd-HW-FFh" secondAttribute="bottom" id="e6F-lf-x7M"/>
+                    <constraint firstItem="M1T-4r-HGX" firstAttribute="height" secondItem="crH-ik-V4s" secondAttribute="height" id="eJJ-nO-gGQ"/>
+                    <constraint firstItem="M1T-4r-HGX" firstAttribute="leading" secondItem="iH7-xs-yOX" secondAttribute="trailing" constant="5" id="grd-23-2Ud"/>
+                    <constraint firstItem="vwd-HW-FFh" firstAttribute="height" secondItem="crH-ik-V4s" secondAttribute="height" id="l1Z-5Z-PHh"/>
+                    <constraint firstItem="ubU-Tb-1el" firstAttribute="leading" secondItem="0G5-Vs-ChZ" secondAttribute="leading" constant="10" id="lU8-lm-Pne"/>
+                    <constraint firstItem="wPX-IA-9r5" firstAttribute="width" secondItem="crH-ik-V4s" secondAttribute="width" id="niP-mL-v01"/>
+                    <constraint firstItem="z5z-zA-d4v" firstAttribute="bottom" secondItem="vwd-HW-FFh" secondAttribute="bottom" id="nqZ-zj-cJ3"/>
+                    <constraint firstItem="z5z-zA-d4v" firstAttribute="leading" secondItem="1Sx-Q1-bAC" secondAttribute="trailing" constant="5" id="rSO-g7-DsY"/>
+                    <constraint firstItem="wPX-IA-9r5" firstAttribute="top" secondItem="vwd-HW-FFh" secondAttribute="bottom" constant="5" id="z88-Vd-ytt"/>
+                    <constraint firstItem="vwd-HW-FFh" firstAttribute="top" secondItem="crH-ik-V4s" secondAttribute="bottom" constant="5" id="zHC-RJ-Ks0"/>
+                    <constraint firstItem="iH7-xs-yOX" firstAttribute="leading" secondItem="wPX-IA-9r5" secondAttribute="trailing" constant="5" id="zLU-BL-L5U"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="button_1" destination="crH-ik-V4s" id="r6W-Xc-dY6"/>
+                <outlet property="button_2" destination="1Sx-Q1-bAC" id="C3p-D4-apY"/>
+                <outlet property="button_3" destination="rQh-lg-jCD" id="SfL-dJ-9xl"/>
+                <outlet property="button_4" destination="vwd-HW-FFh" id="cG6-VR-RgH"/>
+                <outlet property="button_5" destination="z5z-zA-d4v" id="40i-bS-tXw"/>
+                <outlet property="button_6" destination="wPX-IA-9r5" id="4iM-cu-jmb"/>
+                <outlet property="button_7" destination="iH7-xs-yOX" id="GpP-62-bp1"/>
+                <outlet property="button_8" destination="M1T-4r-HGX" id="7sh-SO-Igy"/>
+            </connections>
+            <point key="canvasLocation" x="28.5" y="-64"/>
+        </tableViewCell>
+    </objects>
+</document>
